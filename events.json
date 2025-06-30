@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Tech Talk",
+    "type": "Tech",
+    "date": "2025-07-15",
+    "time": "10:00 AM",
+    "location": "Auditorium",
+    "description": "A talk on AI and Web Development.",
+    "image": "https://via.placeholder.com/400x200?text=Tech+Talk"
+  },
+  {
+    "title": "Cultural Fest",
+    "type": "Cultural",
+    "date": "2025-07-20",
+    "time": "5:00 PM",
+    "location": "Main Lawn",
+    "description": "Music, art and dance performances.",
+    "image": "https://via.placeholder.com/400x200?text=Cultural+Fest"
+  },
+  {
+    "title": "Football Finals",
+    "type": "Sports",
+    "date": "2025-07-22",
+    "time": "3:00 PM",
+    "location": "Stadium",
+    "description": "Final match of the Inter-College League.",
+    "image": "https://via.placeholder.com/400x200?text=Football+Finals"
+  }
+]
+

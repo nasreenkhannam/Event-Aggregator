@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Campus Events</title>
+
+  <!-- Style -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <button id="toggle-dark" onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+
+  <h1>🎓 Campus Events</h1>
+
+  <label for="search">Search Events:</label>
+  <input type="text" id="search" placeholder="Search by title..." oninput="filterEvents()" />
+
+  <label for="filter">Filter by Type:</label>
+  <select id="filter" onchange="filterEvents()">
+    <option value="All">All</option>
+    <option value="Tech">Tech</option>
+    <option value="Cultural">Cultural</option>
+    <option value="Sports">Sports</option>
+  </select>
+
+  <button onclick="resetEvents()" style="margin-top: 10px;">🔄 Reset All Events</button>
+
+  <div id="events-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
